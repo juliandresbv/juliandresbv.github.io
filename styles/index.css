@@ -1,0 +1,12 @@
+#gfonttest {
+    font-family: 'Ubuntu', serif;
+    font-size: 48px;
+}
+
+#h1-home {
+    position: relative !important;
+}
+
+#home {
+    position: relative;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Julian Andres Bermudez Valderrama</title>
+
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="./styles/bootstrap-css/bootstrap.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+</head>
+<body>
+    <!-- Begin of Content -->
+    <section id="home">
+        <h1 id="h1-home" class="container-fluid  text-center">Hello, World!</h1>
+        <h2 id="gfonttest">Ubuntu</h2>
+        
+        <div id="typed-strings">
+            <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+            <p>It <em>types</em> out sentences.</p>
+        </div>
+        <span id="typed"></span>
+    </section>
+
+    <section id="experience">
+        <h1 id="">Section2</h1>
+    </section>
+    <!-- End of Content -->
+
+    <!-- JS Dependencies -->
+    <script src="./vendor/bootstrap-js/bootstrap.min.js"></script>
+    <script src="./vendor/jquery-js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./vendor/typed-js/typed.min.js"></script>
+    <script>
+        $('document').ready(
+            function() {
+                var typed = new Typed('#typed', {
+                    stringsElement: '#typed-strings'
+                });
+            }    
+        );
+    </script>
+    
+</body>
+</html>
